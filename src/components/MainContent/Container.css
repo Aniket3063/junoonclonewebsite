@@ -1,0 +1,195 @@
+.wrap-container{
+    width:90%;
+    margin: 0 auto;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
+}
+.about img{
+    width: 400px;
+}
+.about-logo{
+    width: 40%;
+    /* width: auto; */
+    display: flex;
+    align-items: center;
+}
+#about{
+    width: 44%;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: normal;
+    color: aliceblue;
+    padding: 15px;
+}
+.column{
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+span#count{
+    font-size: 60px;
+}
+.column span{
+    font-size: small;
+}
+
+.tiles , .storygram-container{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    /* background-color: red; */
+}
+.image-frame{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    margin: 15px 0;
+}
+.image-frame img{
+    width: 100%;
+    border-radius: 4px;
+}
+.storygram-container{
+    align-items: flex-start;
+}
+.storygram-tiles{
+    width: 44%;
+    height: auto;
+    overflow: hidden;
+    margin: 15px 0;
+    border-radius: 4px;
+
+}
+.story-image-frame{
+    overflow: hidden;
+}
+
+.story-image-frame a img{
+    width: 100%;
+}
+.story-image-frame a span{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 35.3vw;
+    height: calc(35.3vw * (242.16/365.42) );
+    opacity: 0;
+}
+.story-image-frame a span h3{
+    font-size: medium;
+}
+.story-image-frame a span:hover{
+    opacity: 1;
+}
+.para-story{
+    background-color: #161616;
+    padding: 30px;
+    text-align: center;
+}
+.para-story .story-title a h3:hover{
+    color: antiquewhite;
+} 
+.para-story p{
+    font-size: small;
+    /* letter-spacing: 0.8px; */
+    line-height: 20px;
+}
+.para-story hr{
+    border: none;
+    border-bottom: 1px solid rgb(255 255 255 / 30%);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.meta-footer{
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: xx-small;
+}
+
+
+/* **************** responsive ****************** */
+
+@media screen and (max-width:1110px){
+    .about-logo{
+        width: auto;
+    }
+    
+    #about{
+        font-size: 1rem;
+    }
+    .about img{
+        width: 35vw;
+    }
+    .wrap-container{
+        width: 100%;
+    }
+    .story-image-frame a span{
+        /* background: rgba(0, 0, 0, 0.5);
+        position: absolute; */
+        width: 39.2vw;
+        height: calc(39.2vw * (242.16/365.42) );
+        /* opacity: 0; */
+    }
+}
+
+@media screen and (max-width:990px){
+    .image-frame{
+        width: 45%;
+        height: auto;
+        overflow: hidden;
+        margin: 15px 0;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .about img{
+        width: 50vw;
+    }
+    #about{
+        width: 80%;
+        font-size: 19px;
+        line-height: 30px;
+        font-weight: normal;
+        color: aliceblue;
+        padding: 15px;
+    }   
+}
+
+@media screen and (max-width:768px){
+    .image-frame{
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        margin: 15px 0;
+    }
+
+
+    .storygram-tiles{
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        margin: 15px 0;
+        border-radius: 4px;
+    
+    }
+    .story-image-frame a span{
+        /* background: rgba(0, 0, 0, 0.5);
+        position: absolute; */
+        width: 80.15vw;
+        height: calc(80.15vw * (242.16/365.42) );
+        /* opacity: 0; */
+    }
+    .column{
+        padding: 10px;
+        width: 45%;
+        text-align: center;
+    }
+    section#count-number{
+        flex-direction: column;
+    }
+}

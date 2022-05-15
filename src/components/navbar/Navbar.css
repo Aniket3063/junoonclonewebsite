@@ -1,0 +1,76 @@
+.sticky-navbar{
+    position: sticky;
+    top: 0;
+    /* display: none; */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.sticky-navdiv{
+    width: 95%;
+    height: 30px;
+    padding: 5px 0;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sticky-navdiv .sticky-logo{
+    width: 5%;
+    overflow: hidden;
+    height: 100%;
+
+}
+.sticky-navdiv .sticky-logo img{
+    width: 100%;
+}
+.sticky-nav-option ul{
+    display: flex;
+    margin: 0;
+}
+.sticky-nav-option ul li{
+    list-style: none;
+    padding: 20px;
+}
+.sticky-nav-option ul li a{
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    font-size: small;
+    font-weight: 700;
+}
+.sticky-nav-option ul li a:hover{
+    color:aliceblue;
+}
+
+.sticky-navdiv .sticky-socials{
+    list-style: none;
+}
+.sticky-navdiv .sticky-socials ul{
+    display: flex;
+    margin: 0;
+
+}
+.sticky-navdiv .sticky-socials ul li{
+    padding: 10px;
+    list-style: none;
+}
+.sticky-navdiv .sticky-socials ul li a{
+    color: rgb(219,219,219);
+
+}
+.sticky-navdiv .sticky-socials ul li a:hover{
+    color: aliceblue;
+}
+
+
+/* *********responsive*********** */
+
+@media screen and (max-width:1024px){
+    .sticky-socials{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .sticky-navbar{
+        visibility: hidden;
+    }
+}
