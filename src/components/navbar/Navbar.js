@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className='sticky-navbar'>
             <div className='sticky-navdiv'>
                 <div className="sticky-logo">
-                    <img src="../logo.png" alt='photo' />
+                    <img src="https://junoonnsut.com/style/images/junoon-white.png" alt='photo' />
                 </div>
                 <div className="sticky-nav-option flex-all-center">
                     <ul>
