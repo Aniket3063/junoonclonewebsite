@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/junoonclonewebsite/static/css/main.2eff77ad.css",
-    "main.js": "/junoonclonewebsite/static/js/main.eeabf37a.js",
-    "static/js/787.3f803131.chunk.js": "/junoonclonewebsite/static/js/787.3f803131.chunk.js",
-    "index.html": "/junoonclonewebsite/index.html",
-    "main.2eff77ad.css.map": "/junoonclonewebsite/static/css/main.2eff77ad.css.map",
-    "main.eeabf37a.js.map": "/junoonclonewebsite/static/js/main.eeabf37a.js.map",
-    "787.3f803131.chunk.js.map": "/junoonclonewebsite/static/js/787.3f803131.chunk.js.map"
+    "main.css": "/junoon-clonewebsite/static/css/main.2eff77ad.css",
+    "main.js": "/junoon-clonewebsite/static/js/main.40d65a99.js",
+    "static/js/787.3f803131.chunk.js": "/junoon-clonewebsite/static/js/787.3f803131.chunk.js",
+    "index.html": "/junoon-clonewebsite/index.html",
+    "main.2eff77ad.css.map": "/junoon-clonewebsite/static/css/main.2eff77ad.css.map",
+    "main.40d65a99.js.map": "/junoon-clonewebsite/static/js/main.40d65a99.js.map",
+    "787.3f803131.chunk.js.map": "/junoon-clonewebsite/static/js/787.3f803131.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2eff77ad.css",
-    "static/js/main.eeabf37a.js"
+    "static/js/main.40d65a99.js"
   ]
 }
