@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer flex-all-center'>
       <div className='flex-all-center'>
         <div className='logo'>
-          <img src="https://junoonnsut.com/style/images/junoon-white.png" alt='photo' />
+          <img src="https://junoonnsut.com/style/images/junoon-white.jpg" alt='photo' />
           <p>Built & Design by Aniket-Kumar | IT-1.</p>
         </div>
         <div className="socials flex-all-center footer-socials">
