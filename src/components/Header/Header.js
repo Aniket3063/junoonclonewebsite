@@ -11,7 +11,7 @@ const Header = () => {
             <nav className='wide-nav transparent'>
                 <div className='navdiv'>
                     <div className="logo">
-                        <img src="../logo.png" alt='photo' />
+                        <img src="https://junoonnsut.com/style/images/junoon-white.png" alt='photo' />
                     </div>
                     <div className={isMobile ? "nav-links-mobile  flex-all-center" : "nav-option flex-all-center"}
                     onClick={() => setIsMobile(true)}>
